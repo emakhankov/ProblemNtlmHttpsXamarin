@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProblemNTLM.MainPage">
+
+    <StackLayout>
+       <Entry x:Name="url" Placeholder="url"></Entry>
+       <Entry x:Name="login" Placeholder="login"></Entry>
+       <Entry x:Name="password" Placeholder="password"></Entry>
+       <Entry x:Name="domain" Placeholder="domain"></Entry>
+       <Button x:Name="btnStart"  Text="Send request" Clicked="btnStart_Clicked" />
+       <Editor x:Name="result" HeightRequest="200"/>
+
+    </StackLayout>
+
+</ContentPage>
